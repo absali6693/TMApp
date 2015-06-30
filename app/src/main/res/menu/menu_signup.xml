@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thinking.machines.tmapp.SignupActivity">
+    <item
+        android:id="@+id/actionBarSignUpItem"
+        android:icon="@drawable/ic_action_accept"
+        android:title="@string/signup_activity_action_bar_signup_item_title"
+        android:showAsAction="ifRoom"
+        />
+</menu>

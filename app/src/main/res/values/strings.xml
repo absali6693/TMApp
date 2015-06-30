@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TMApp</string>
+
+    <string name="startup_activity_signup_button_text">Signup</string>
+    <string name="startup_activity_login_button_text">Login</string>
+    <string name="title_activity_signup">Signup</string>
+
+    <string name="signup_activity_title_text_view_text">Sign up</string>
+    <string name="signup_activity_first_name_edit_text_hint_text">first name</string>
+    <string name="signup_activity_last_name_edit_text_hint_text">last name</string>
+    <string name="signup_activity_mobile_number_edit_text_hint_text">mobile number</string>
+    <string name="signup_activity_username_edit_text_hint_text">username</string>
+    <string name="signup_activity_action_bar_signup_item_title">Sign up</string>
+    <string name="title_activity_test_user_dao">TestUserDAOActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+</resources>

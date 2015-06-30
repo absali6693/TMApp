@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.thinking.machines.tmapp.TestUserDAOActivity">
+
+    <EditText
+        android:hint="id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:hint="username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/id"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:hint="mobile number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobileNumber"
+        android:layout_below="@+id/username"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:hint="user id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userId"
+        android:layout_below="@+id/mobileNumber"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:hint="startup status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/starupStatus"
+        android:layout_below="@+id/userId"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/addButton"
+        android:layout_below="@+id/starupStatus"
+        android:layout_alignParentStart="true"
+        android:onClick="addButtonClickedHandler"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get by id"
+        android:id="@+id/getByIdButton"
+        android:layout_below="@+id/addButton"
+        android:layout_alignParentStart="true"
+        android:onClick="getByIdButtonClickedHandler"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/updateButton"
+        android:layout_below="@+id/getByIdButton"
+        android:layout_alignParentStart="true"
+        android:onClick="updateButtonClickedHandler"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/deleteButton"
+        android:layout_below="@+id/updateButton"
+        android:layout_alignParentStart="true"
+        android:onClick="deleteButtonClickedHandler"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get All"
+        android:id="@+id/getAllButton"
+        android:layout_below="@+id/deleteButton"
+        android:layout_alignParentStart="true"
+        android:onClick="getAllButtonClickedHandler"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Count"
+        android:id="@+id/getCountButton"
+        android:layout_below="@+id/getAllButton"
+        android:layout_alignParentStart="true"
+        android:onClick="getCountButtonClickedHandler"
+        />
+
+</RelativeLayout>
